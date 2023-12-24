@@ -1,0 +1,105 @@
+/* ATENÇÃO: códigos que não estiverem comentados já o foram anteriormente. */
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: lighter;
+    text-align: center;
+
+}
+
+.superior {
+    background-color: black;
+    margin-left: 0.2%;
+    margin-right: 0.2%;
+
+}
+
+.principal {
+    margin-left: 0.2%;
+    margin-right: 0.2%;
+
+}
+
+.inferior {
+    background-color: black;
+    color: white;
+    margin-top: 10%;
+    
+}
+
+table tr td {
+    text-align: center;
+
+}
+
+.conteudo {
+    text-align: justify;
+    top: auto;
+
+}
+
+.v_line {
+    border-left: 1px solid rgb(0, 0, 0);
+    min-height: 270px;
+    margin: 0 auto;
+     width: 2px;
+}
+
+.titulo {
+    text-align: left;
+    margin-left: 3%;
+}
+
+/* Define a posição como relativa, o deslocamento para a esquerda como 0 e para a parte inferior como 0, na classe "carousel-caption". */
+.carousel-caption {
+    position: relative;
+    left: 0;
+    bottom: 0;
+
+}
+
+.carousel-item .active {
+    width: 800px;
+
+}
+
+.bd-example {
+    background-color: black;
+    
+}
+
+.carousel-caption {
+    background-color: black;
+
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+
+}
+
+/* Define a largura máxima do formulário como 80%, o preenchimento interno de 20 pixels, a cor de fundo do formulário, bordas arredondadas e a borda de 1 pixel sólida na cor preta, no formulário. */
+form {
+    max-width: 80%; 
+    padding: 20px;
+    background-color:rgba(16, 16, 16, 0.5);
+    border-radius: 3px;
+    border: 1px solid black;
+
+}
+
+/* Define a posição como relativa, desloca o elemento para baixo por 20 pixels, remove a borda do elemento, define a altura da linha horizontal como 1 pixel, a cor de fundo da linha horizontal como preta e adiciona a margem na parte inferior da linha horizontal como 50 pixels, na tag hr. */
+hr {
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 1px;
+    background: black;
+    margin-bottom: 50px;
+
+}

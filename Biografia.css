@@ -1,0 +1,121 @@
+/* Define a cor do fundo, as margens, o preenchimento, a fonte, o peso da fonte e alinhamento do texto no corpo do texto. */
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: lighter;
+    text-align: center;
+
+}
+
+/* Define cor de fundo e as margens esquerda e direita, na classe "superior". */
+.superior {
+    background-color: black;
+    margin-left: 0.2%;
+    margin-right: 0.2%;
+
+}
+
+/* Define as margens esquerda e direita, na classe "principal". */
+.principal {
+    margin-left: 0.2%;
+    margin-right: 0.2%;  
+
+}
+
+/* Define o alinhamento centralizado para células da tabela. */
+table tr td {
+    text-align: center;
+
+}
+
+/* Define o tamanho da fonte para 500% do padrão. */
+.apresentacao {
+    font-size: 500%;
+
+}
+
+/* Define a cor de fundo, a altura mínima, a largura máxima e a margem superior, na classe "principal". */
+td hr {
+    background-color: #000000;
+    min-height: 1px;
+    max-width: 61%;
+    margin-top: 0%;
+
+}
+
+/* Define o posicionamento para a legenda do carrossel. */
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+    background-color: black;
+
+}
+
+/* Define a largura de 800px para os itens do carrossel. */
+.carousel-item .active {
+    width: 800px;
+
+}
+
+/* Define a cor de fundo para preto no carrossel. */
+.bd-example {
+    background-color: black;
+}
+
+/* Define o alinhamento e margem esquerda, na classe "titulo". */
+.titulo {
+    text-align: left;
+    margin-left: 3%;
+}
+
+/* Define o alinhamento como justificado e o posicionamento do topo, na classe "conteudo". */
+.conteudo {
+    text-align: justify;
+    top: auto;
+
+}
+
+/* Define a borda esquerda, a altura mínima, a margem e a largura, na linha vertical. */
+.v_line {
+    border-left: 1px solid rgb(0, 0, 0);
+    min-height: 270px;
+    margin: 0 auto;
+    width: 2px;
+}
+
+/* Define cor de fundo, borda e cor do texto, na classe "card". */
+.card {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+}
+
+/* Define o alinhamento como justificado na classe "card-text". */
+.card-text {
+    text-align: justify;
+
+}
+
+/* Define a cor de fundo, a cor do texto e a margem superior, na classe "inferior". */
+.inferior {
+    background-color: black;
+    color: white;
+    margin-top: 10%;
+    
+}
+
+/* Define a borda e a cor do texto, na classe "btn-outline-secondary". */
+.btn-outline-secondary {
+    border: 1px solid black;
+    color: black;
+}
+
+/* Define alteração da cor do fundo e do texto quando passar o mouse por cima, na classe "btn-outline-secondary", . */
+.btn-outline-secondary:hover {
+    background-color: black;
+    color: white;
+}
+
